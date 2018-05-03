@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_en"
+            android:icon="@drawable/ic_create_ct"
+            android:title="@string/createCT" />
+        <item
+            android:id="@+id/nav_decrypt"
+            android:icon="@android:drawable/star_off"
+            android:title="@string/decrypt"
+            />
+        <item
+            android:id="@+id/nav_his"
+            android:icon="@drawable/ic_view_ct"
+            android:title="@string/viewCT" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_ct"
+            android:title="@string/helpCT"
+            />
+
+
+    </group>
+
+    <item android:title="Credits">
+        <menu>
+            <item
+                android:id="@+id/none"
+                android:icon="@drawable/ic_dev_logo"
+                android:title="@string/credits" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Sipher</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="createCT">Create Secret Messages</string>
+    <string name="helpCT">How To?</string>
+    <string name="viewCT">Go in if you have guts</string>
+    <string name="credits">Done By VKMB</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint">Type the message to be hidden</string>
+    <string name="d_hint">Type the message to be decrypted</string>
+    <string name="send">Send</string>
+    <string name="shift">Shift</string>
+    <string name="Default">Enter Something</string>
+    <string name="viewCT2">ALL The Records were deleted</string>
+    <string name="history">
+       In cryptography, a Caesar cipher, also known as Caesar\'s cipher, the shift cipher, Caesar\'s code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence. The encryption step performed by a Caesar cipher is often incorporated as part of more complex schemes, such as the Vigenère cipher, and still has modern application in the ROT13 system. As with all single-alphabet substitution ciphers, the Caesar cipher is easily broken and in modern practice offers essentially no communication security. The Caesar cipher is named after Julius Caesar, who, according to Suetonius, used it with a shift of three to protect messages of military significance. While Caesar\'s was the first recorded use of this scheme, other substitution ciphers are known to have been used earlier.\n
+    </string>
+    <string name="password_hint">Enter Password</string>
+    <string name="rot13">13</string>
+    <string name="password_hint_old">Enter Old Password</string>
+    <string name="password_hint_new1">Enter New Password</string>
+    <string name="password_hint_new2">Re-Enter New Password</string>
+    <string name="decrypt">Decrypt Message</string>
+    <string name="decrypt_h">Decrypted Message</string>
+    <string name="helpCTDetail">
+        Disclaimer : !!!!!!!!!! Only for educational purpose !!!!!!!!\n
+        \t Developer is not responsible for any illegal activities\n
+        Create Secret Message:
+        \n\t 1)In the message text box  type the message to be encrypted.
+        \n\t 2)In the shift text box  type the number of places to be shifted.
+        \n\t 3)Click the save icon to encrypt and save the message.
+        \n\t 4)Click the send icon to send the encrypted message.
+        \n\t Note: Without encrypting you can\'t send the message.
+        \n\t       Encrypted Messages that are copied automatically are in the format "xxxxxxxx-shift".\n
+        Decrypt Message:
+        \n\t 1)In the message text box  type the message to be decrypted.
+        \n\t 2)In the shift text box  type the number of places to be shifted.
+        \n\t 3)Click the upload icon to decrypt the message.
+        \n\t 4)Click the send icon to send the encrypted message.
+        \n\t Note: Decrypted messages are not saved.
+        \n\t       Long press on upload icon to clear all the fields\n
+        See Encrypted Message:
+        \n\t 1)In the password box  type the password.
+        \n\t 2)On successful authentication the messages can be viewed.
+        \n\t Note: Default password is 0000.\n
+        Settings:
+        \n\t Here the password for viewing the encrypted messages can be changed.\n
+        A piece of advice : First do it and then do it better \n
+        \t\t\t\t\t\t\t\t\t-Thank you
+        \n\n
+        </string>
+    <string name="help_des">Help</string>
+    <string name="cipher_prompt">Choose a cipher</string>
+    <string-array name="cipher_type">
+        <item name = "rot13"> ROT 13</item>
+        <item name = "cc"> Caeser's Cipher</item>
+        <item name = "vigenereCipher">Vigenere Cipher</item>
+        <item name = "oneTimePad">One Time Pad</item>
+    </string-array>
+</resources>

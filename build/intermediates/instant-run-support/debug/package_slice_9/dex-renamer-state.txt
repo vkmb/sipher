@@ -1,0 +1,4 @@
+#Tue Apr 24 09:34:56 IST 2018
+base.0=/Users/kunkumamithunbalajivenkatesan/AndroidStudioProjects/Sipher/app/build/intermediates/transforms/dexMerger/debug/28
+path.0=classes.dex
+renamed.0=classes.dex
